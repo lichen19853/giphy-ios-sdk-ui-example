@@ -1,5 +1,9 @@
 
-use_frameworks!
-target "Example" do 
+# After commenting out use_frameworks!, Swift project should fail to build, with an error:
+# Module 'PINCache' not found
+
+# use_frameworks!
+
+target "Example" do
 pod 'Giphy'
 end
